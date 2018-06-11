@@ -30,7 +30,7 @@ Know your screen viewport: www.viewportsizes.com/mine
 body {
 	background-color: #353535; 
 	color: #fff;
-	cursor:url('../img/MetroCur.png'), auto;
+	cursor:url('../img/MetroCur1.png'), auto;
 	overflow-x: hidden;
 }
 
