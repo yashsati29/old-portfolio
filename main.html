@@ -1,0 +1,165 @@
+<!-- DevS (Yash Kumar Sati) Portfolio Website v2.0r [FINAL-Revised] - UDACITY FEND PROJECT - 05/06/2018 - 22:22 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- TITLE BAR ICON -->
+	<link rel="shortcut icon" href="./img/favicon.ico">
+
+	<!-- QUICKSAND CUSTOM FONT IMPORT -->
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+	<!-- FRANCOIS ONE CUSTOM FONT IMPORT -->
+	<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+
+	<!-- MAIN.CSS FILE IMPORT -->
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+
+	<!-- SCRIPT.JS FILE IMPORT -->
+	<script src="./js/script.js"></script>
+
+	<!-- CUSTOM ANIMATION (ANIMATE.CSS) FILE [Special thanks to bingtao, my mentor & Daniel Eden for this css file] Download it here: https://daneden.github.io/animate.css/ -->
+	<link rel="stylesheet" href="./css/animate.css">
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>My Portfolio v2.0r - UDACITY</title>
+
+</head>
+
+<body onload="myFunction()">
+
+	<!-- PRELOADER -->
+	<div id="loader"></div>
+
+	<!-- SITE WRAPPER -->
+	<div class="site-wrapper" id="myDiv">
+
+		<!-- OFF CANVAS NAVIGATION MENU (beta) -->
+		<nav class="navbar">
+			<span class="open-slide">
+				<a class="nav-icon" href="#" onclick="openSlideMenu()">
+					<svg width="30" height="30">
+						<path d="M0,5 30,5" stroke="#02b3e4" stroke-width="5"/>
+						<path d="M0,14 30,14" stroke="#02b3e4" stroke-width="5"/>
+						<path d="M0,23 30,23" stroke="#02b3e4" stroke-width="5"/>
+					</svg>
+				</a>
+			</span>
+			<div class="nav-logo-wrap"><img class="nav-logo" src="./img/udacity-logo-extended-white.png" alt="udacity-logo">
+			</div>
+		</nav>
+
+		<div id="side-menu" class="side-nav">
+			<a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+			<a href="#">Services</a>
+			<a href="#">About</a>
+			<a href="#">Portfolio</a>
+			<a href="#">Resume</a>
+			<a href="#">Contact</a>
+		</div>
+		<!-- OFF CANVAS NAVIGATION MENU (beta) ENDs -->
+
+		<!-- NAVIGATION MENU LARGE -->
+		<nav id="nav-large">
+			<a href="main.html"><img class="nav-logo-large" src="./img/udacity-logo-extended-white.png" alt="udacity-logo"></a>
+			<ul class="nav-list">
+				<li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Resume</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+			</ul>
+		</nav>
+
+		<!-- CONTENT -->
+		<div class="content">
+			<div class="main">
+				<!-- COVER -->
+				<div class="cover">
+					<div class="cover-desc">
+						<div class="designer-name bounceIn">Yash Kumar Sati</div>
+						<div class="designer-desc">Front-End Web Developer & Graphics Designer</div>
+					</div>
+				</div>
+
+				<!-- ABOUT ME -->
+				<div class="about-me">
+					<div class="heading heading1">ABOUT ME</div>
+					<div class="my-desc desc">I'm final year undergraduate at JECRC foundation with an interest in Graphic Designing, Coding and Gaming.</div>
+				</div>
+
+				<!-- FEATURES -->
+				<div class="features">
+					<div class="heading heading2">FEATURES</div>
+					<div class="feature-content">
+
+						<!-- RESPONSIVE -->
+						<div class="sub-feature feature1">
+							<div class="gfx-img-container"><img class="gfx-img" src="./img/responsive.png" alt="responsive"></div>
+							<div class="sub-heading">RESPONSIVE</div>
+							<div class="sub-desc desc">
+								<p>
+									Responsive web design is a relatively new approach to website design that ensures users have a good viewing experience no matter what type of device they’re using.
+								</p>
+							</div>
+						</div>
+
+						<!-- ATTRACTIVE -->
+						<div class="sub-feature feature2">
+							<div class="gfx-img-container"><img class="gfx-img" src="./img/attractive.png" alt="attractive"></div>
+							<div class="sub-heading">ATTRACTIVE</div>
+							<div class="sub-desc desc">
+								<p>
+									People don't judge a book by its cover, do they? Of course they do. Whether it's the presentation of your food at a restaurant or the latest Apple product, humans just seem to love things that are beautifully designed. And the same goes for your website.
+								</p>
+							</div>
+						</div>
+
+						<!-- USER-FRIENDLY -->
+						<div class="sub-feature feature3">
+							<div class="gfx-img-container"><img class="gfx-img" src="./img/user-friendly.png" alt="user-friendly"></div>
+							<div class="sub-heading">USER-FRIENDLY</div>
+							<div class="sub-desc desc">
+								<p>
+									User experience is important because it can create the momentum that propels the business forward. Remember,users decide in just a few seconds whether your site or app is worth their time.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- COPYRIGHT ATTRIBUTIONS -->
+				<div class="copyright">
+					This Portfolio Website Is Made By<h4>DevS</h4>
+				</div>
+			</div>
+		</div>
+
+		<!-- FOOTER -->
+		<footer id="footer">
+			<div class="footer-list">
+				<div class="footer-item">
+					<a class="footer-link" href="https://www.facebook.com" target="_blank"><img class="contact-logo" src="./img/facebook-logo.png" alt="facebook">Facebook</a>
+				</div>
+				<div class="footer-item">
+					<a class="footer-link" href="https://www.github.com" target="_blank"><img class="contact-logo" src="./img/github-logo.png" alt="github">GitHub</a>
+				</div>
+				<div class="footer-item">
+					<a class="footer-link" href="https://www.instagram.com" target="_blank"><img class="contact-logo" src="./img/instagram-logo.png" alt="instagram">Instagram</a>
+				</div>
+				<div class="footer-item">
+					<a class="footer-link" href="https://www.linkedin.com" target="_blank"><img class="contact-logo" src="./img/linkedin-logo.png" alt="linkedin">LinkedIn</a>
+				</div>
+				<div class="footer-item">
+					<a class="footer-link" href="https://www.twitter.com" target="_blank"><img class="contact-logo" src="./img/twitter-logo.png" alt="twitter">Twitter</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
