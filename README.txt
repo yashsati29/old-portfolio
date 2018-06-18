@@ -15,6 +15,7 @@ PROJECT #1: PORTFOLIO WEBSITE v2.0r [Revised FINAL] - DevS (Yash Kumar Sati) - U
 	VOTE OF THANKS
 -----------------------------------------------------------------------------------
 		I would like to thank to my mentor, Bingtao & my parents for supporting me and providing me adequate knowledge for completion of this project. Without them I don't think my project would be as it is now. I would like to thanks to Daniel Eden for his animate.css file which i used for animating some of my elements in webpage.
-
-
-
+-----------------------------------------------------------------------------------
+	NOTE
+-----------------------------------------------------------------------------------
+		This project is purely based upon HTML, CSS and JS. No third party libraries were used (except for animate.css by Daniel Eden). Development is still in progress :)
