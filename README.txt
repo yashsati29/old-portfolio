@@ -19,3 +19,9 @@ PROJECT #1: PORTFOLIO WEBSITE v2.0r [Revised FINAL] - DevS (Yash Kumar Sati) - U
 	NOTE
 -----------------------------------------------------------------------------------
 		This project is purely based upon HTML, CSS and JS. No third party libraries were used (except for animate.css by Daniel Eden). Development is still in progress :)
+-----------------------------------------------------------------------------------
+	WHAT'S NEW
+-----------------------------------------------------------------------------------
+	v2.1r (19/06/2018) : 23:27
+		- Added Technical Skills Section
+		- Minor Bug Fix

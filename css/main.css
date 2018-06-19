@@ -1,12 +1,11 @@
 /*
-DevS (Yash Kumar Sati) Portfolio Website v2.0r [FINAL-Revised] - UDACITY FEND PROJECT - 05/06/2018 - 22:22
+DevS (Yash Kumar Sati) Portfolio Website v2.1r - UDACITY FEND PROJECT - 19/06/2018 - 23:27
+
+What's New:
+- Added Technical Skills Section
+- Minor Bug Fixes
 
 Older Version: Portfolio Website v0.1r [BETA]
-
-LOGs
-1.  Code Started: 22:22|05-06-2018
-2. 	Code Finished: 23:30|06-06-2018
-3. 	Code Indentation & Indexing: 10:46|07-06-2018
 
 CSS fonts.google.com import style commands
 CSS:
@@ -181,6 +180,7 @@ body {
 	text-transform: uppercase;
 }
 
+.skill-name,
 .designer-desc,
 .desc,
 .copyright,
@@ -207,6 +207,11 @@ h4 {
 	width: 95%;
 }
 
+.heading3 {
+	background-color: #02b3e4;
+	width: 95%;
+}
+
 .my-desc {
 	text-align: center;
 }
@@ -219,7 +224,7 @@ h4 {
 .sub-heading,
 .desc {
 	width: 95%;
-	margin: 4px auto 0 auto;
+	margin: 8px auto 0 auto;
 }
 
 .sub-desc {
@@ -232,6 +237,45 @@ h4 {
 
 .gfx-img {
 	width: 150px;
+}
+
+/* SKILL BAR STYLING */
+.technical-content {
+	width: 94%;
+	margin: 8px auto 0 auto;
+}
+
+.skill{
+	margin-top: 1px;
+}
+
+.progress{
+	background-color: #b3b0b03b;
+}
+
+.progress-bar{
+	text-align: right;
+	padding-right: 10px;
+}
+
+.progress-bar-html{
+	background-color: #85ec0d;
+	width: 85%;
+}
+
+.progress-bar-css{
+	background-color: #85ec0d;
+	width: 80%;
+}
+
+.progress-bar-js{
+	background-color: #ffdd00;
+	width: 60%;
+}
+
+.progress-bar-cjava{
+	background-color: #8be424;
+	width: 90%;
 }
 /*CONTENT STYLING ENDS*/
 
@@ -278,6 +322,10 @@ h4 {
 		text-align: center;
 		overflow: hidden;
 		white-space: nowrap;
+	}
+
+	.progress-bar {
+		animation: loading 4s;
 	}	
 }
 
@@ -285,7 +333,7 @@ h4 {
 	.cover-desc {
 		font-size: large;
 	}
-	
+
 	.gfx-img {
 		width: 180px;
 	}
@@ -314,7 +362,8 @@ h4 {
 	.heading1 {
 		width: 85px;
 	}
-
+	
+	.skill,
 	.desc {
 		font-size: large;
 	}
@@ -337,6 +386,7 @@ h4 {
 }
 
 @media screen and (max-width: 999px) {
+	.technical,
 	.about-me,
 	.features {
 		animation: fadeAndScale 2s ease-in;
@@ -375,11 +425,11 @@ h4 {
 	.nav-link {
 		font-size: 20px;
 	}
-	
+
 	.cover-desc {
 		font-size: xx-large;
 	}
-	
+
 	.heading,
 	.sub-heading {
 		font-size: x-large;
@@ -389,6 +439,7 @@ h4 {
 		width: 115px;
 	}
 
+	.skill,
 	.desc {
 		font-size: 20px;
 	}
@@ -452,6 +503,10 @@ h4 {
 		animation: pulse 0.65s;
 	}
 
+	.heading3:hover {
+		animation: pulse 0.65s;
+	}
+
 	.feature1:hover {
 		animation: pulse 0.65s;
 	}
@@ -484,6 +539,7 @@ h4 {
 	.cover,
 	.about-me,
 	.features,
+	.technical,
 	#footer {
 		width: 1281px;
 		margin: 0 auto;
@@ -524,6 +580,16 @@ h4 {
 	}
 	to {
 		width: 42ch;
+	}
+}
+
+@keyframes loading {
+	from {
+		width: 0%;
+	}
+
+	to {
+		opacity: 100%;
 	}
 }
 /* ANIMATION IMPORTED FROM animate.css ~ by Daniel Eden */
